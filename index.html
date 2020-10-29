@@ -20,27 +20,20 @@
                     <div class="form-group-fluid mb-2 mx-4 mt-4">
                       <input type="search" class="form-control" id="input-search" placeholder="Enter City">
                     </div>
-                    <button type="submit" class="btn btn-primary mr-4 mt-3">Search</button>
+                    <button id= "search-city" type="button" class="btn btn-primary mr-4 mt-3">Search</button>
                   </form>
-                <ul class="list-group mx-4 my-4">
+                <ul id="history" class="list-group mx-4 my-4">
                   <li class="list-group-item" type="button">Austin</li>
-                  <li class="list-group-item" type="button">Chicago</li>
-                  <li class="list-group-item" type="button">New York</li>
-                  <li class="list-group-item" type="button">Orlando</li>
-                  <li class="list-group-item" type="button">San Francisco</li>
-                  <li class="list-group-item" type="button">Seattle</li>
-                  <li class="list-group-item" type="button">Denver</li>
-                  <li class="list-group-item" type="button">Atlanta</li>
                 </ul>
               </div>
           </div>
           <div class="col-8">
             <div class="container mt-4">
-                  <h2 class="card-title mb-4">City Name</h2>
-                  <p class="card-text">Temperature</p>
-                  <p class="card-text">Humidity</p>
-                  <p class="card-text">Wind Speed</p>
-                  <p class="card-text">UV Index</p>
+                  <h2 class="card-title">City Name</h2>
+                  <p style="display:inline" id="main-temp" class="card-text">Temperature: <div style="display: inline-block" id="input-main-temp"></div></p>
+                  <p style="display:inline" id="main-humidity" class="card-text">Humidity: <div id="input-main-humidity"></div></p>
+                  <p style="display:inline" id="main-wind-speed" class="card-text">Wind Speed: <div id="input-main-wind-speed"></div></p>
+                  <p style="display:inline" id="main-uv-index" class="card-text">UV Index: <div id="input-main-uv-index"></div></p>
                 </div>
                 <div class="container mt-4">
                     <h4 class="mt-4">5-Day Forecast:</h4>
