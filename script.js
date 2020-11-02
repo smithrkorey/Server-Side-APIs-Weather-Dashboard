@@ -1,6 +1,12 @@
 //insert search-city on click into document ready function
 
 $( document ).ready(function() {
+    
+    //localStorage.setItem('key', 'value')
+    
+    /*for (var index = 0; index < 11; index++) {
+    $("#h" + index).val(localStorage.getItem("hInput"));
+    }*/
 
     //Example
     /*var searchHistory = []
@@ -33,7 +39,9 @@ $( document ).ready(function() {
                     success: function( result ) {
                         $("#input-main-uv-index").text(result.current.uvi);
                         //console.log(result)
-                        for (let index = 1; index < 3; index++) {
+                        
+                        //Creating for loop to show 
+                        for (let index = 1; index < 6; index++) {
                             var forecast = result.daily[index];
                             
                             // Convert timestamp to milliseconds
@@ -48,18 +56,13 @@ $( document ).ready(function() {
         }); 
 
 
-
-        /*$.ajax({
-            url: "https://api.openweathermap.org/data/2.5/onecall",
-            data: {
-                q: searchCity,
-                appid: "50d4c88b6039a0b2d81971032a239e46",
-                units: "imperial",
-            },
-            success: function( result ) {
-                console.log(result)
-            }
-        });*/
-    }); 
+        /*for (var index = 0; index < 11; index++) {
+            
+            searchCity = $("#h" + index).val();
     
+            localStorage.setItem("#h" + index, "hInput");
+        }*/
+
+    }); 
+
 });
