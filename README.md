@@ -5,7 +5,7 @@
 <img src="06-server-side-apis-homework-demo.png" alt="Weather Dashboard">
 
 
-## Acceptance Criteria
+## Requirements
 
 GIVEN a weather dashboard with form inputs \
 WHEN I search for a city \
@@ -23,6 +23,12 @@ THEN I am again presented with current and future conditions for that city
 
 * [Weather Dashboard](https://smithrkorey.github.io/Server-Side-APIs-Weather-Dashboard/)
 * [Github Repository](https://github.com/smithrkorey/Server-Side-APIs-Weather-Dashboard)
+
+## Mock Up
+
+The following images shows the finished site:
+![Landing Page](./Weather-Dashboard-01.png)
+![Search Results](./Weather-Dashboard-02.png)
 
 ## Contributing Technologies
 
