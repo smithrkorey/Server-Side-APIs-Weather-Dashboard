@@ -2,9 +2,6 @@
 
 <p>This project displays a weather dashboard that runs in the browser and features dynamically updated HTML and CSS. The OpenWeather API is utilized to access data with specific parameters to showcase current and forecasted weather based on city input from the user.</p>
 
-<img src="06-server-side-apis-homework-demo.png" alt="Weather Dashboard">
-
-
 ## Requirements
 
 GIVEN a weather dashboard with form inputs \
