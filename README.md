@@ -1,9 +1,12 @@
-<h1>Server-Side-APIs-Weather-Dashboard</h1>
+## Server-Side-APIs-Weather-Dashboard
+
 <p>This project displays a weather dashboard that runs in the browser and features dynamically updated HTML and CSS. The OpenWeather API is utilized to access data with specific parameters to showcase current and forecasted weather based on city input from the user.</p>
 
 <img src="06-server-side-apis-homework-demo.png" alt="Weather Dashboard">
 
-<h2>Acceptance Criteria:</h2>
+
+## Acceptance Criteria
+
 <p>GIVEN a weather dashboard with form inputs</br>
 <br>WHEN I search for a city</br>
 <br>THEN I am presented with current and future conditions for that city and that city is added to the search history</br>
@@ -15,3 +18,8 @@
 <br>THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, and the humidity</br>
 <br>WHEN I click on a city in the search history</br>
 <br>THEN I am again presented with current and future conditions for that city</br>
+
+## Links
+
+* [Weather Dashboard](https://smithrkorey.github.io/Server-Side-APIs-Weather-Dashboard/)
+* [Github Repository](https://github.com/smithrkorey/Server-Side-APIs-Weather-Dashboard)
