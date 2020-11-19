@@ -23,3 +23,9 @@ THEN I am again presented with current and future conditions for that city \
 
 * [Weather Dashboard](https://smithrkorey.github.io/Server-Side-APIs-Weather-Dashboard/)
 * [Github Repository](https://github.com/smithrkorey/Server-Side-APIs-Weather-Dashboard)
+
+## Contributing Technologies
+
+* [jQuery](https://jquery.com/)
+* [Bootstrap](https://getbootstrap.com/)
+* [OpenWeather API](https://openweathermap.org/api)
